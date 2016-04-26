@@ -29,6 +29,9 @@
       <Extensions>cpp;moc</Extensions>
       <SourceControlFiles>False</SourceControlFiles>
     </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{da8ebb53-56f5-447a-b761-0b08c0ca6bfa}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -48,5 +51,13 @@
     <CustomBuild Include="finddialog.h">
       <Filter>Header Files</Filter>
     </CustomBuild>
+    <CustomBuild Include="..\..\ui\gotocelldialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_gotocelldialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

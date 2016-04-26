@@ -1,10 +1,16 @@
 #include <QApplication>
-#include "finddialog.h"
+#include <QDialog>
+#include "ui_gotocelldialog.h"
+
 
 int main(int argc, char *argv[])
 {
 	QApplication app(argc, argv);
-	FindDialog *dialog = new FindDialog;
+	
+	Ui::GoToCellDialog ui;
+	QDialog *dialog = new QDialog;
+	ui.setupUi(dialog);
 	dialog->show();
+
 	return app.exec();
 }
