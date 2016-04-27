@@ -72,7 +72,9 @@ private:
 	QToolBar *editToolBar;
 	QAction *newAction;
 	QAction *openAction;
-
+	QAction *exitAction;
+	QAction *selectAllAction;
 	QAction *aboutQtAction;
+	QAction *showGridAction;
 };
 #endif // !MAINWINDOW_H
